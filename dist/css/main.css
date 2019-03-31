@@ -24,7 +24,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  visibility: hidden; }
+  visibility: none; }
   .menu.show {
     visibility: visible; }
   .menu-branding, .menu-nav {
