@@ -42,7 +42,6 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
   visibility: hidden;
 
   &.show {
@@ -52,6 +51,7 @@
   //- adds to whatever class has string in
   &-branding,
   &-nav {
+    background: rgba(darken($primary-color, 5), 0.9);
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -78,7 +78,7 @@
 
   //Branding Side
   &-branding {
-    background: $primary-color;
+    background: rgba($primary-color, 0.9);
     transform: translate3d(0, 100%, 0);
     @include easeOut;
 
@@ -93,7 +93,7 @@
       background: url(../img/portrait.jpg);
       border-radius: 50%;
       border: solid 3px $secondary-color;
-      opacity: 1 !important;
+      opacity: (1 !important);
     }
   }
 
