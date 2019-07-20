@@ -1,6 +1,7 @@
 {
   "name": "portfoliowebsite",
   "version": "1.0.0",
+  "private": true,
   "description": "Responsive Portfolio Website",
   "main": "index.js",
   "homepage": "https://catcommit.github.io/ResponsivePortfolio",
@@ -12,6 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "gh-pages": "^2.0.1",
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.12.0",
+    "npm": "^6.10.0"
   }
 }

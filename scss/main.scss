@@ -79,7 +79,8 @@ main {
   grid-gap: 30px;
   grid-template-areas:
     "bioimage bio bio"
-    "job1 job2 job3";
+    "job1 job2 job3"
+    "skills education1";
   //Dependant on 3 columns
   grid-template-columns: repeat(3, 1fr);
 
@@ -109,6 +110,14 @@ main {
     background: lighten($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
+  }
+
+  .skills {
+    grid-area: skills1;
+  }
+
+  .education {
+    grid-area: education1;
   }
 }
 
