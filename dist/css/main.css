@@ -283,7 +283,7 @@ main {
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3" "education" "skills";
+    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3" "education" "skills" "contact";
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
