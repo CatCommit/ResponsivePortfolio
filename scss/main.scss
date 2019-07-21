@@ -80,7 +80,7 @@ main {
   grid-template-areas:
     "bioimage bio bio"
     "job1 job2 job3"
-    "skills education1";
+    "education skills contact";
   //Dependant on 3 columns
   grid-template-columns: repeat(3, 1fr);
 
@@ -112,12 +112,15 @@ main {
     border-bottom: $secondary-color 5px solid;
   }
 
-  .skills {
-    grid-area: skills1;
+  .skills-1 {
+    grid-area: skills;
   }
 
-  .education {
-    grid-area: education1;
+  .education-1 {
+    grid-area: education;
+  }
+  .contact-1 {
+    grid-area: contact;
   }
 }
 
