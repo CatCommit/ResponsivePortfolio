@@ -182,6 +182,9 @@ main {
     background: white;
     padding: 0.5rem;
     border-bottom: #e32626 5px solid; }
+    .about-info .job a:hover {
+      color: #e32626;
+      transition: all 0.25s ease-out; }
   .about-info .skills-1 {
     grid-area: skills; }
   .about-info .education-1 {
